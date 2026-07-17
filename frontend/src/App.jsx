@@ -9,6 +9,7 @@ const App = () => {
       <Hero />
       {/* <Education/> */}
       <About />
+      <Education />
     </div>
   );
 };

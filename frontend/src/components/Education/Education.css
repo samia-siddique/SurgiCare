@@ -1,6 +1,97 @@
-.education{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.education {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+  min-height: 100vh;
+  font-family: "Manrope", sans-serif;
 }
 
+.bg-texture {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: #4e5bff;
+  opacity: 0.08;
+  filter: blur(80px);
+  top: 60px;
+  left: 40%;
+  z-index: 0;
+}
+
+.education-title {
+  letter-spacing: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #4e5bff;
+  margin-bottom: 30px;
+  background: transparent;
+}
+
+.education h2 {
+  font-size: 42px;
+  margin-top: 10px;
+  z-index: 1;
+  background: transparent;
+}
+
+.education-para {
+  max-width: 600px;
+  text-align: center;
+  color: #666;
+  line-height: 1.8;
+  margin: 5px 0 100px;
+  z-index: 1;
+  background: transparent;
+}
+
+.studies-timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.timeline-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #4e5bff;
+  position: relative;
+  z-index: 2;
+}
+
+.education-container {
+  width: min(1000px, 100%);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.education-container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #d7d7d7;
+  top: 8px;
+  left: 0;
+  z-index: 0;
+}
+
+.study-content {
+  margin-top: 18px;
+  text-align: center;
+}
+
+.study-content h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.study-content p {
+  color: #666;
+  font-size: 15px;
+}
