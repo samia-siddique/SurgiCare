@@ -1,0 +1,115 @@
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Manrope", sans-serif;
+  min-height: 80vh;
+  padding-top: 90px;
+  grid-gap: 30px;
+  background: #1f2a44;
+}
+
+.footer a {
+  color: #c8d0e5;
+  background: transparent;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.footer a:hover,
+.links li:hover {
+  color: #ffff;
+  transform: translateX(4px);
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  width: min(1200px, 100%);
+  background: transparent;
+}
+
+.footer-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  margin-bottom: 22px;
+  background: transparent;
+  color: #ffff;
+  font-size: 22px;
+}
+
+.footer-container h2 {
+  margin-bottom: 18px;
+  gap: 15px;
+}
+
+.footer-container p {
+  color: #c8d0e5;
+  background: transparent;
+  line-height: 1.8;
+  margin: 0 0 10px;
+  font-size: 15px;
+}
+
+.footer-heading svg {
+  background: transparent;
+  color: #b98711;
+}
+
+.about-dr,
+.contact-info,
+.clinic-info,
+.links {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+
+.links li {
+  background: transparent;
+  color: #d6dcef;
+  margin-bottom: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.links li:hover {
+  color: #ffff;
+}
+
+.end-info {
+  width: 100%;
+  max-width: 1200px;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 30px;
+  margin-top: 110px;
+}
+
+.end-info p {
+  background: transparent;
+  color: #aeb8d4;
+  font-size: 14px;
+}
+
+.end-info a {
+  color: #ffff;
+  font-weight: 600;
+}

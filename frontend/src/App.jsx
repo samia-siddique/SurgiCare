@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero";
 import Education from "./components/Education/Education";
 import About from "./components/About/About";
 import Experties from "./components/Experties/Experties";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <About />
       <Education />
       <Experties/>
+      <Footer />
     </div>
   );
 };
