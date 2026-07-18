@@ -1,19 +1,12 @@
 import React from "react";
-import Hero from "./components/Hero/Hero";
-import Education from "./components/Education/Education";
-import About from "./components/About/About";
-import Experties from "./components/Experties/Experties";
-import Footer from "./components/Footer/Footer";
+import { Routes, Route } from "react-router-dom";
+import Home from "./components/Home/Home";
 
 const App = () => {
   return (
-    <div>
-      <Hero />
-      <About />
-      <Education />
-      <Experties/>
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
   );
 };
 

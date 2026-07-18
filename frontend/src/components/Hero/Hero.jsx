@@ -15,16 +15,21 @@ const Hero = () => {
             <h1>Expert General Surgery with Compassionate Care.</h1>
             <p>Welcome to the official website of Dr. Sumera Siddique</p>
           </div>
-          
+
           <div className="hero-buttons">
-            <button className="contact-btn">
-              Contact Now
-              <ArrowRight size={18} className="arrow-icon" />
-            </button>
-            <button className="wedo-btn">
-              Book Appoinment
-              <ArrowUpRight size={16} className="arrow-icon" />
-            </button>
+            <a href="#contact">
+              <button className="contact-btn">
+                Contact Now
+                <ArrowRight size={18} className="arrow-icon" />
+              </button>
+            </a>
+
+            <a href="#services">
+              <button className="wedo-btn">
+                Services
+                <ArrowUpRight size={16} className="arrow-icon" />
+              </button>
+            </a>
           </div>
         </div>
 
@@ -38,10 +43,6 @@ const Hero = () => {
               <h3>Dr. Sumera Siddique</h3>
               <p className="title">Consultant Surgeon</p>
             </div>
-
-            <button className="arrow-btn">
-              <ArrowUpRight size={20} className="arrow-icon" />
-            </button>
           </div>
         </div>
       </div>

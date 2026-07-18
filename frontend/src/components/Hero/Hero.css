@@ -43,6 +43,7 @@
 
 .hero-buttons {
   display: flex;
+  align-items: center;
   gap: 20px;
 }
 
@@ -63,6 +64,10 @@
 .wedo-btn {
   color: #050505;
   font-weight: 500;
+}
+
+.wedo-btn:hover {
+  background-color: #d8d8dc;
 }
 
 .hero-card {

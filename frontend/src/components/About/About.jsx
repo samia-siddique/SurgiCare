@@ -43,7 +43,9 @@ const About = () => {
             and treatment options.
           </p>
 
-          <button>Book Appointment</button>
+          <a href="#contact">
+            <button>Contact for Appointment</button>
+          </a>
         </div>
       </div>
     </div>

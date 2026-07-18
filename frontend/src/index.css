@@ -6,3 +6,12 @@
   box-sizing: border-box;
   background-color: #F9F9FB;
 }
+
+a{
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover{
+  text-decoration: none;
+}

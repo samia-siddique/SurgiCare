@@ -16,15 +16,23 @@ const Navbar = () => {
 
       <div className="navbar-list">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#education"> Education</a>
+          </li>
         </ul>
 
-        <button className="nav-btn">
-          Make an Appointment
-          <ArrowRight size={20} className="arrow-icon" />
-        </button>
+        <a href="#contact">
+          <button className="nav-btn">
+            Contact Now
+            <ArrowRight size={20} className="arrow-icon" />
+          </button>
+        </a>
       </div>
     </div>
   );
