@@ -1,0 +1,67 @@
+.experties {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.experties-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4b5eff;
+  letter-spacing: 4px;
+}
+
+.experties-para {
+  color: #999;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 800px;
+  text-align: center;
+  margin: 10px 0 80px;
+}
+
+.service-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  width: min(1000px, 100%);
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #ffffff;
+  border: 1px solid #e0e5f5;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.06);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card h3 {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  gap: 15px;
+}
+
+.card h3 svg {
+  color: #4e5bff;
+  background: transparent;
+}
+
+.card p {
+  background: transparent;
+  color: #666;
+  line-height: 1.8;
+  font-size: 16px;
+}
