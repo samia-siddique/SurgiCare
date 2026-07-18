@@ -4,6 +4,7 @@ import "./Education.css";
 const Education = () => {
   const studies = [
     { name: "MBBS", place: "Services Hospital, Lahore" },
+    { name: "FCPS", place: "Services Hospital, Lahore" },
     { name: "MRCS", place: "Edinburg" },
     { name: "Coloproctology Course", place: "Switzerland" },
     { name: "FACS", place: "Servises Hospital, Lahore" },
@@ -20,7 +21,7 @@ const Education = () => {
         A journey of medical education, advanced surgical training, and
         internationally recognized certifications.
       </p>
-      
+
       <div className="education-container">
         {studies.map((study, index) => (
           <div className="studies-timeline" key={study.name}>
