@@ -43,6 +43,13 @@
   cursor: pointer;
 }
 
+.navbar-list a{
+  color: #000000;
+}
+
+.navbar-list a:hover{
+  color: #4e5bff;
+}
 .nav-btn {
   display: flex;
   gap: 8px;

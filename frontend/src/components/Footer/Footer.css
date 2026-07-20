@@ -100,7 +100,7 @@
   justify-content: space-between;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   padding-top: 30px;
-  margin-top: 110px;
+  margin: 110px 0 20px;
 }
 
 .end-info p {

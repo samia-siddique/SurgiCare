@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   gap: 200px;
-  padding: 60px;
+  padding: 30px;
   font-family: "Manrope", sans-serif;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .wedo-btn:hover {
-  background-color: #d8d8dc;
+  background-color: #F9F9FB;
 }
 
 .hero-card {

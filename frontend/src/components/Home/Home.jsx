@@ -8,8 +8,9 @@ import Footer from "../Footer/Footer";
 const Home = () => {
   return (
     <>
+
       <Hero />
-      
+
       <section id="about">
         <About />
       </section>

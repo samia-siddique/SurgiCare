@@ -22,7 +22,7 @@ const Footer = () => {
           </h2>
 
           <a href="tel:+923044999660">0304-4999660</a>
-          <p>042-37182305</p>
+          <a href="tel:042-37182305">042-37182305</a>
 
           <a
             href="https://wa.me/923044999660"
@@ -52,10 +52,10 @@ const Footer = () => {
             <Globe size={20} /> Quick Links
           </h2>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Book Appointment</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
