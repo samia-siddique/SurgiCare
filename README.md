@@ -28,4 +28,6 @@ This project taught me a lot about:
 - Improving my CSS skills
 - Building responsive sections
 - Keeping a consistent design throughout the website
-  
+
+
+I used ChatGPT while building this project and mostly for brainstorming ideas, fixing bugs when I got stuck, and getting explanations so I could understand what I was doing. I still wrote the code myself, customized the design, and put everything together on my own. I didn't follow a full tutorial I used AI as a learning buddy, not as someone building the project for me.
