@@ -86,18 +86,11 @@
     gap: 6px;
   }
 
-  .navbar-logo img {
-    width: 34px;
-    height: 34px;
-  }
-
   .navbar-text h3 {
-    font-size: 11px;
     white-space: nowrap;
   }
 
   .navbar-text p {
-    font-size: 9px;
     white-space: nowrap;
   }
 

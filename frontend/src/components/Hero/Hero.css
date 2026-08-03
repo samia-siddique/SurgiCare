@@ -138,16 +138,58 @@
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 40px;
     padding: 20px;
+    text-align: center;
   }
 
   .hero-container {
     max-width: 100%;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .container-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-container h1 {
+    font-size: 38px;
+    line-height: 1.2;
+    max-width: 100%;
+  }
+
+  .hero-container p {
+    margin-top: 15px;
+    font-size: 15px;
+    max-width: 300px;
+  }
+
+  .hero-buttons {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contact-btn,
+  .wedo-btn {
+    font-size: 14px;
   }
 
   .hero-card {
     width: 100%;
     max-width: 320px;
+  }
+
+  .hero-text h3 {
+    font-size: 18px;
+  }
+
+  .hero-text p {
+    font-size: 13px;
   }
 }
