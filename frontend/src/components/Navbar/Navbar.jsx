@@ -27,11 +27,9 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <a href="#contact">
-          <button className="nav-btn">
+        <a href="#contact" className="nav-btn">
             Contact Now
             <ArrowRight size={20} className="arrow-icon" />
-          </button>
         </a>
       </div>
     </div>
