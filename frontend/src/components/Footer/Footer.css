@@ -113,3 +113,15 @@
   color: #ffff;
   font-weight: 600;
 }
+
+
+
+@media (max-width: 768px) {
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+  }
+}

@@ -13,7 +13,7 @@
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background: #4e5bff;
+  background: #848cfd;
   opacity: 0.3;
   filter: blur(80px);
   top: 60px;
@@ -52,6 +52,7 @@
   flex-direction: column;
   align-items: center;
   width: 250px;
+  background: transparent;
 }
 
 .timeline-dot {
@@ -68,6 +69,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
+  background: transparent;
 }
 
 .education-container::before {
@@ -84,14 +86,69 @@
 .study-content {
   margin-top: 18px;
   text-align: center;
+  background: transparent;
 }
 
 .study-content h3 {
   font-size: 20px;
   margin-bottom: 8px;
+  background: transparent;
 }
 
 .study-content p {
   color: #666;
   font-size: 15px;
+  background: transparent;
+}
+
+@media (max-width: 768px) {
+
+  .education {
+    min-height: auto;
+  }
+
+  .bg-texture {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .education h2 {
+    font-size: 30px;
+  }
+
+  .education-para {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+
+  .education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .studies-timeline {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    gap: 20px;
+    position: relative;
+  }
+
+  .timeline-dot {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    margin-top: 5px;
+  }
+
+  .study-content {
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .education-container::before {
+    display: none;
+  }
 }

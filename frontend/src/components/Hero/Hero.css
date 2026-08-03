@@ -140,15 +140,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 40px;
-    padding: 20px;
+    gap: 60px;
     text-align: center;
+    padding: 80px;
   }
 
   .hero-container {
     max-width: 100%;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
   }
 
   .container-text {
@@ -164,7 +164,6 @@
   }
 
   .hero-container p {
-    margin-top: 15px;
     font-size: 15px;
     max-width: 300px;
   }
@@ -173,6 +172,7 @@
     gap: 15px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 30px;
   }
 
   .contact-btn,
@@ -182,14 +182,8 @@
 
   .hero-card {
     width: 100%;
-    max-width: 320px;
+    max-width: 360px;
   }
 
-  .hero-text h3 {
-    font-size: 18px;
-  }
-
-  .hero-text p {
-    font-size: 13px;
-  }
+ 
 }
