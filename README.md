@@ -1,21 +1,21 @@
 # SurgiCare
 
-SurgiCare is a modern and responsive medical website I built for Dr. Sumera Siddique. This project focuses on creating a clean, professional, and user friendly interface where patients can easily learn about the doctor, her qualifications, and the services she offers. This was my first time creating a website like this, and I honestly learned a lot while building it. It helped me understand how to structure a real world website, create reusable components, and design a clean UI.
+SurgiCare is a modern, responsive medical website built for Dr. Sumera Siddique. The project is designed to give patients a clear and accessible way to learn about the doctor, her qualifications, and the medical services she provides. I also covered structuring React applications, creating reusable components, and building a clean, responsive user interface.
 
 ## Features
 
-- Responsive Hero Section
-- Clean Navigation Bar
-- About the Doctor
-- Education Timeline
-- Medical Services Section
-- Contact Section
-- Footer
-- Modern and minimal UI
+- Responsive hero section
+- Clean navigation bar
+- Doctor's profile and introduction
+- Education and qualifications timeline
+- Medical services section
+- Contact section
+- Responsive footer
+- Clean and minimal UI
 
 ## Built With
 
-- React.js
+- React
 - Vite
-- CSS
 - JavaScript
+- CSS
